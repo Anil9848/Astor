@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.astorcrm.forecastmodule.CreateNewForeCasts"/>
+      <class name="com.astorcrm.solutionmodule.NewSolutionTab"/>
+      <class name="com.astorcrm.solutionmodule.CreateNewSolution"/>
+      <class name="com.astorcrm.casesmodule.CaseTab"/>
+      <class name="com.astorcrm.forecastmodule.ForeCastEdit"/>
+      <class name="com.astorcrm.leadmodule.LeadList"/>
+      <class name="com.astorcrm.productmodule.CreateNewProduct"/>
+      <class name="com.astorcrm.forecastmodule.Forecasts"/>
+      <class name="com.astorcrm.solutionmodule.SolutionPage"/>
+      <class name="com.astorcrm.leadmodule.ChangeStatus"/>
+      <class name="com.astorcrm.leadmodule.LeadPageTab"/>
+      <class name="com.astorcrm.leadmodule.WindowHandling"/>
+      <class name="com.astorcrm.forecastmodule.NewForecastsTab"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
